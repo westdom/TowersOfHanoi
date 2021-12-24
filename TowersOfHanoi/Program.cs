@@ -5,9 +5,9 @@ namespace TowersOfHanoi
     class Program
     {
 
-        const int MAX_TOWER_HEIGHT = 20;
+        const int MAX_TOWER_HEIGHT = 10;
         const bool PRINT_TOWERS = true;
-        static int[,] position = GenerateInitialPosition();
+        static readonly int[,] position = GenerateInitialPosition();
 
         static void Main(string[] args)
         {
